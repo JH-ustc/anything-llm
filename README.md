@@ -9,8 +9,8 @@
 </div>
 
 <p align="center">
-    <b>AnythingLLM:</b> The all-in-one AI app you were looking for.<br />
-    Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no frustrating setup required.
+    <b>AnythingLLM：</b> 您一直在寻找的全方位 AI 应用程序。<br />
+    与您的文档聊天，使用 AI 智能体，高度可配置，支持多用户，无需繁琐设置。
 </p>
 
 <p align="center">
@@ -18,70 +18,61 @@
       <img src="https://img.shields.io/badge/chat-mintplex_labs-blue.svg?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAH1UExURQAAAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////r6+ubn5+7u7/3+/v39/enq6urq6/v7+97f39rb26eoqT1BQ0pOT4+Rkuzs7cnKykZKS0NHSHl8fdzd3ejo6UxPUUBDRdzc3RwgIh8jJSAkJm5xcvHx8aanqB4iJFBTVezt7V5hYlJVVuLj43p9fiImKCMnKZKUlaaoqSElJ21wcfT09O3u7uvr6zE0Nr6/wCUpK5qcnf7+/nh7fEdKTHx+f0tPUOTl5aipqiouMGtubz5CRDQ4OsTGxufn515hY7a3uH1/gXBydIOFhlVYWvX29qaoqCQoKs7Pz/Pz87/AwUtOUNfY2dHR0mhrbOvr7E5RUy8zNXR2d/f39+Xl5UZJSx0hIzQ3Odra2/z8/GlsbaGjpERHSezs7L/BwScrLTQ4Odna2zM3Obm7u3x/gKSmp9jZ2T1AQu/v71pdXkVISr2+vygsLiInKTg7PaOlpisvMcXGxzk8PldaXPLy8u7u7rm6u7S1tsDBwvj4+MPExbe4ueXm5s/Q0Kyf7ewAAAAodFJOUwAABClsrNjx/QM2l9/7lhmI6jTB/kA1GgKJN+nea6vy/MLZQYeVKK3rVA5tAAAAAWJLR0QB/wIt3gAAAAd0SU1FB+cKBAAmMZBHjXIAAAISSURBVDjLY2CAAkYmZhZWNnYODnY2VhZmJkYGVMDIycXNw6sBBbw8fFycyEoYGfkFBDVQgKAAPyMjQl5IWEQDDYgIC8FUMDKKsmlgAWyiEBWMjGJY5YEqxMAqGMWFNXAAYXGgAkYJSQ2cQFKCkYFRShq3AmkpRgYJbghbU0tbB0Tr6ukbgGhDI10gySfBwCwDUWBsYmpmDqQtLK2sbTQ0bO3sHYA8GWYGWWj4WTs6Obu4ami4OTm7exhqeHp5+4DCVJZBDmqdr7ufn3+ArkZgkJ+fU3CIRmgYWFiOARYGvo5OQUHhEUAFTkF+kVHRsLBgkIeyYmLjwoOc4hMSk5JTnINS06DC8gwcEEZ6RqZGlpOfc3ZObl5+gZ+TR2ERWFyBQQFMF5eklmqUpQb5+ReU61ZUOvkFVVXXQBSAraitq29o1GiKcfLzc29u0mjxBzq0tQ0kww5xZHtHUGeXhkZhdxBYgZ4d0LI6c4gjwd7siQQraOp1AivQ6CuAKZCDBBRQQQNQgUb/BGf3cqCCiZOcnCe3QQIKHNRTpk6bDgpZjRkzg3pBQTBrdtCcuZCgluAD0vPmL1gIdvSixUuWgqNs2YJ+DUhkEYxuggkGmOQUcckrioPTJCOXEnZ5JS5YslbGnuyVERlDDFvGEUPOWvwqaH6RVkHKeuDMK6SKnHlVhTgx8jeTmqy6Eij7K6nLqiGyPwChsa1MUrnq1wAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMC0wNFQwMDozODo0OSswMDowMB9V0a8AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTAtMDRUMDA6Mzg6NDkrMDA6MDBuCGkTAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIzLTEwLTA0VDAwOjM4OjQ5KzAwOjAwOR1IzAAAAABJRU5ErkJggg==" alt="Discord">
   </a> |
   <a href="https://github.com/Mintplex-Labs/anything-llm/blob/master/LICENSE" target="_blank">
-      <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=white" alt="License">
+      <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=white" alt="许可证">
   </a> |
   <a href="https://docs.anythingllm.com" target="_blank">
-    Docs
+    文档
   </a> |
-   <a href="https://my.mintplexlabs.com/aio-checkout?product=anythingllm" target="_blank">
-    Hosted Instance
+  <a href="https://my.mintplexlabs.com/aio-checkout?product=anythingllm" target="_blank">
+    托管实例
   </a>
 </p>
 
 <p align="center">
-  <b>English</b> · <a href='./locales/README.zh-CN.md'>简体中文</a> · <a href='./locales/README.ja-JP.md'>日本語</a>
+👉 适用于桌面端（Mac、Windows 和 Linux）的 AnythingLLM！<a href="https://anythingllm.com/download" target="_blank">立即下载</a>
 </p>
 
-<p align="center">
-👉 AnythingLLM for desktop (Mac, Windows, & Linux)! <a href="https://anythingllm.com/download" target="_blank"> Download Now</a>
-</p>
-
-<p align="center">
-📱 AnythingLLM Mobile (Android) is open source! <a href="https://github.com/Mintplex-Labs/anythingllm-mobile" target="_blank">View the repo</a>
-</p>
-
-Chat with your docs. Automate complex workflows with AI Agents. Hyper-configurable, multi-user ready, battle-tested—and runs locally by default with zero setup friction.
+与您的文档聊天。使用 AI 智能体自动化复杂工作流。高度可配置、支持多用户、经过实战检验——默认本地运行，零配置摩擦。
 
 ![Chatting](https://github.com/Mintplex-Labs/anything-llm/releases/download/v1.11.2/AnythingLLM720p.gif)
 
 <details>
-<summary><kbd>Watch the demo!</kbd></summary>
+<summary><kbd>观看演示视频！</kbd></summary>
 
-[![Watch the video](/images/youtube.png)](https://youtu.be/f95rGD9trL0)
+[![观看视频](images/youtube.png)](https://youtu.be/f95rGD9trL0)
 
 </details>
 
-### Product Overview
+### 产品概览
 
-AnythingLLM is the all-in-one AI application that lets you build a private, fully-featured ChatGPT—without compromises. Connect your favorite local or cloud LLM, ingest your documents, and start chatting in minutes. Out of the box you get built-in agents, multi-user support, vector databases, and document pipelines — no extra configuration required.
+AnythingLLM 是一款全方位 AI 应用程序，让您毫无妥协地构建私有的、功能完备的 ChatGPT。接入您喜爱的本地或云端 LLM，导入您的文档，几分钟内即可开始聊天。开箱即用即可获得内置智能体、多用户支持、向量数据库和文档处理管道——无需额外配置。
 
-AnythingLLM supports multiple users as well where you can control the access and experience per user without compromising the security or privacy of the instance or your intellectual property.
+AnythingLLM 还支持多用户，您可以控制每个用户的访问权限和使用体验，同时不会损害实例的安全性、隐私性或您的知识产权。
 
-## Cool Features of AnythingLLM
+## AnythingLLM 的酷炫特性
 
-- [Built-in local LLM engine](/docker/HOW_TO_USE_DOCKER.md#built-in-llm-engine-optional) - Run local models on your CPU or GPU (NVIDIA via CUDA, AMD and Intel via Vulkan) with no extra setup, powered by [Lemonade](https://lemonade-server.ai) and [llama.cpp](https://github.com/ggml-org/llama.cpp).
-- [Dynamic Model Routing](https://docs.anythingllm.com/model-router/overview) - Automatically route chats to the best provider & model for the conversation based on rules you define.
-- [Automatic & User Managed Memories](https://docs.anythingllm.com/features/memories) - Have your LLM remember important information about you or your workspace.
-- [Scheduled Tasks](https://docs.anythingllm.com/scheduled-jobs/overview) - Run recurring tasks or prompts on a cron schedule with full agent capabilities.
-- [Intelligent Skill Selection](https://docs.anythingllm.com/agent/intelligent-tool-selection) Enable **unlimited** tools for your models while reducing token usage by up to 80% per query
-- [No-code AI Agent builder](https://docs.anythingllm.com/agent-flows/overview)
-- [MCP-compatibility](https://docs.anythingllm.com/mcp-compatibility/overview)
-- [Multi-modal support (both closed and open-source LLMs!)](https://docs.anythingllm.com/features/language-models)
-- [Custom AI Agents](https://docs.anythingllm.com/agent/custom/introduction)
-- 👤 Multi-user instance support and permissioning _Docker version only_
-- 🦾 Agents inside your workspace (browse the web, etc)
-- 💬 [Custom Embeddable Chat widget for your website](https://github.com/Mintplex-Labs/anythingllm-embed/blob/main/README.md) _Docker version only_
-- 📖 Multiple document type support (PDF, TXT, DOCX, etc)
-- Intuitive chat UI with drag-and-drop uploads and source citations.
-- Production-ready for any cloud deployment.
-- Works with all popular [closed and open-source LLM providers](#supported-llms-embedder-models-speech-models-and-vector-databases).
-- Built-in optimizations for large document sets—lower costs and faster responses than other chat UIs.
-- Full Developer API for custom integrations!
-- ...and much more—install in minutes and see for yourself.
+- [动态模型路由](https://docs.anythingllm.com/model-router/overview) - 根据您定义的规则，自动将聊天路由到最合适的提供商与模型。
+- [自动与用户管理的记忆](https://docs.anythingllm.com/features/memories) - 让您的 LLM 记住关于您或您工作区的重要信息。
+- [定时任务](https://docs.anythingllm.com/scheduled-jobs/overview) - 以 cron 计划运行周期性任务或提示词，并具备完整的智能体能力。
+- [智能技能选择](https://docs.anythingllm.com/agent/intelligent-tool-selection) 为您的模型启用**无限**工具，同时将每次查询的 token 用量最多降低 80%
+- [无代码 AI 智能体构建器](https://docs.anythingllm.com/agent-flows/overview)
+- [兼容 MCP](https://docs.anythingllm.com/mcp-compatibility/overview)
+- [多模态支持（闭源与开源 LLM 均可！）](https://docs.anythingllm.com/features/language-models)
+- [自定义 AI 智能体](https://docs.anythingllm.com/agent/custom/introduction)
+- 👤 多用户实例支持与权限管理 _仅限 Docker 版本_
+- 🦾 工作区内的智能体（浏览网页等）
+- 💬 [为您的网站定制的可嵌入聊天组件](https://github.com/Mintplex-Labs/anythingllm-embed/blob/main/README.md) _仅限 Docker 版本_
+- 📖 支持多种文档类型（PDF、TXT、DOCX 等）
+- 直观的聊天界面，支持拖放上传与来源引用。
+- 可用于任意云端部署的生产级方案。
+- 兼容所有主流的[闭源与开源 LLM 提供商](#支持的-llm嵌入模型语音模型和向量数据库)。
+- 针对大型文档集的内置优化——相比其他聊天界面成本更低、响应更快。
+- 面向自定义集成的完整开发者 API！
+- ……以及更多功能——几分钟内完成安装，亲自体验。
 
-### Supported LLMs, Embedder Models, Speech models, and Vector Databases
+### 支持的 LLM、嵌入模型、语音模型和向量数据库
 
-**Large Language Models (LLMs):**
+**大语言模型（LLMs）：**
 
 - [Any open-source llama.cpp compatible model](/server/storage/models/README.md#text-generation-llm-selection)
 - [OpenAI](https://openai.com)
@@ -122,7 +113,7 @@ AnythingLLM supports multiple users as well where you can control the access and
 - [Cerebras (chat models)](https://www.cerebras.ai/)
 - [oMLX](https://github.com/jundot/omlx)
 
-**Embedder models:**
+**嵌入模型：**
 
 - [AnythingLLM Native Embedder](/server/storage/models/README.md) (default)
 - [OpenAI](https://openai.com)
@@ -139,12 +130,12 @@ AnythingLLM supports multiple users as well where you can control the access and
 - [Mistral](https://mistral.ai/)
 - Generic OpenAI-compatible embedding APIs
 
-**Audio Transcription models:**
+**音频转录模型：**
 
 - [AnythingLLM Built-in](https://github.com/Mintplex-Labs/anything-llm/tree/master/server/storage/models#audiovideo-transcription) (default)
 - [OpenAI](https://openai.com/)
 
-**TTS (text-to-speech) support:**
+**TTS（文本转语音）支持：**
 
 - Native Browser Built-in (default)
 - [PiperTTSLocal - runs in browser](https://github.com/rhasspy/piper)
@@ -152,11 +143,11 @@ AnythingLLM supports multiple users as well where you can control the access and
 - [ElevenLabs](https://elevenlabs.io/)
 - Any OpenAI Compatible TTS service.
 
-**STT (speech-to-text) support:**
+**STT（语音转文本）支持：**
 
-- Native Browser Built-in (default)
+- 浏览器原生内置（默认）
 
-**Vector Databases:**
+**向量数据库：**
 
 - [LanceDB](https://github.com/lancedb/lancedb) (default)
 - [PGVector](https://github.com/pgvector/pgvector)
@@ -168,118 +159,102 @@ AnythingLLM supports multiple users as well where you can control the access and
 - [Milvus](https://milvus.io)
 - [Zilliz](https://zilliz.com)
 
-### Technical Overview
+### 技术概览
 
-This monorepo consists of six main sections:
+本单一仓库由六个主要部分组成：
 
-- `frontend`: A viteJS + React frontend that you can run to easily create and manage all your content the LLM can use.
-- `server`: A NodeJS express server to handle all the interactions and do all the vectorDB management and LLM interactions.
-- `collector`: NodeJS express server that processes and parses documents from the UI.
-- `docker`: Docker instructions and build process + information for building from source.
-- `embed`: Submodule for generation & creation of the [web embed widget](https://github.com/Mintplex-Labs/anythingllm-embed).
-- `browser-extension`: Submodule for the [chrome browser extension](https://github.com/Mintplex-Labs/anythingllm-extension).
+- `frontend`: 一个 viteJS + React 前端，您可以运行它来轻松创建和管理 LLM 可以使用的所有内容。
+- `server`: 一个 NodeJS express 服务器，处理所有交互并负责向量数据库管理与 LLM 交互。
+- `collector`: NodeJS express 服务器，用于从 UI 处理和解析文档。
+- `docker`: Docker 指令、构建流程以及从源码构建的相关信息。
+- `embed`: 用于生成和创建[网页嵌入组件](https://github.com/Mintplex-Labs/anythingllm-embed)的子模块。
+- `browser-extension`: 用于 [Chrome 浏览器扩展](https://github.com/Mintplex-Labs/anythingllm-extension)的子模块。
 
-## 🛳 Self-Hosting
+## 🛳 自托管
 
-Mintplex Labs & the community maintain a number of deployment methods, scripts, and templates that you can use to run AnythingLLM locally. Refer to the table below to read how to deploy on your preferred environment or to automatically deploy.
+Mintplex Labs 与社区维护了多种部署方式、脚本和模板，您可以使用它们在本地运行 AnythingLLM。请参阅下表，了解如何在您偏好的环境中部署或自动部署。
 | Docker | AWS | GCP | Digital Ocean | Render.com |
 |----------------------------------------|----|-----|---------------|------------|
 | [![Deploy on Docker][docker-btn]][docker-deploy] | [![Deploy on AWS][aws-btn]][aws-deploy] | [![Deploy on GCP][gcp-btn]][gcp-deploy] | [![Deploy on DigitalOcean][do-btn]][do-deploy] | [![Deploy on Render.com][render-btn]][render-deploy] |
 
-| Railway                                             | RepoCloud                                                 | Elestio                                             | Northflank                                                   | Sealos                                           |
-| --------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------ |
+| Railway                                             | RepoCloud                                                 | Elestio                                             | Northflank                                                   | Sealos                                               |
+| --------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
 | [![Deploy on Railway][railway-btn]][railway-deploy] | [![Deploy on RepoCloud][repocloud-btn]][repocloud-deploy] | [![Deploy on Elestio][elestio-btn]][elestio-deploy] | [![Deploy on Northflank][northflank-btn]][northflank-deploy] | [![Deploy on Sealos][sealos-btn]][sealos-deploy] |
 
-| Easypanel                                                 |
-| --------------------------------------------------------- |
-| [![Deploy on Easypanel][easypanel-btn]][easypanel-deploy] |
+[或者不使用 Docker 搭建生产环境的 AnythingLLM 实例 →](BARE_METAL.md)
 
-[or set up a production AnythingLLM instance without Docker →](./BARE_METAL.md)
+## 如何设置开发环境
 
-## How to setup for development
+- `yarn setup` 填充应用各部分所需的 `.env` 文件（在仓库根目录执行）。
+  - 请先填写这些文件再继续。确保 `server/.env.development` 已填写，否则程序无法正常运行。
+- `yarn dev:server` 在本地启动服务器（在仓库根目录执行）。
+- `yarn dev:frontend` 在本地启动前端（在仓库根目录执行）。
+- `yarn dev:collector` 然后运行文档收集器（在仓库根目录执行）。
 
-- `yarn setup` To fill in the required `.env` files you'll need in each of the application sections (from root of repo).
-  - Go fill those out before proceeding. Ensure `server/.env.development` is filled or else things won't work right.
-- `yarn dev:server` To boot the server locally (from root of repo).
-- `yarn dev:frontend` To boot the frontend locally (from root of repo).
-- `yarn dev:collector` To then run the document collector (from root of repo).
+[了解文档](server/storage/documents/DOCUMENTS.md)
 
-[Learn about documents](./server/storage/documents/DOCUMENTS.md)
+## 远程信息收集与隐私保护
 
-## Telemetry & Privacy
-
-AnythingLLM by Mintplex Labs Inc contains a telemetry feature that collects anonymous usage information.
+由 Mintplex Labs Inc 开发的 AnythingLLM 包含一项收集匿名使用信息的遥测功能。
 
 <details>
-<summary><kbd>More about Telemetry & Privacy for AnythingLLM</kbd></summary>
+<summary><kbd>有关 AnythingLLM 遥测与隐私保护的更多信息</kbd></summary>
 
-### Why?
+### 为什么收集信息？
 
-We use this information to help us understand how AnythingLLM is used, to help us prioritize work on new features and bug fixes, and to help us improve AnythingLLM's performance and stability.
+我们使用这些信息来帮助我们理解 AnythingLLM 的使用情况，帮助我们确定新功能和错误修复的优先级，并帮助我们提升 AnythingLLM 的性能与稳定性。
 
-### Opting out
+### 怎样关闭
 
-Set `DISABLE_TELEMETRY` in your server or docker .env settings to "true" to opt out of telemetry. You can also do this in-app by going to the sidebar > `Privacy` and disabling telemetry.
+在服务器或 Docker 的 .env 设置中将 `DISABLE_TELEMETRY` 设为 "true" 即可退出遥测。您也可以在应用内操作：侧边栏 > `隐私` > 关闭遥测。
 
-### What do you explicitly track?
+### 你们明确跟踪哪些信息？
 
-We will only track usage details that help us make product and roadmap decisions, specifically:
+我们只会跟踪有助于我们做出产品和路线图决策的使用细节，具体包括：
 
-- Type of your installation (Docker or Desktop)
+- 您的安装类型（Docker 或桌面版）
 
-- When a document is added or removed. No information _about_ the document. Just that the event occurred. This gives us an idea of use.
+- 文档被添加或移除时。不包含任何_关于_文档本身的信息，仅记录该事件发生过。这让我们了解使用情况。
 
-- Type of vector database in use. This helps us prioritize changes when updates arrive for that provider.
+- 使用中的向量数据库类型。这有助于我们在该提供商发布更新时确定改动的优先级。
 
-- Type of LLM provider & model tag in use. This helps us prioritize changes when updates arrive for that provider or model, or combination thereof. eg: reasoning vs regular, multi-modal models, etc.
+- 使用中的 LLM 提供商与模型标签。这有助于我们在该提供商或模型（或两者组合）发布更新时确定改动的优先级，例如：推理模型与常规模型、多模态模型等。
 
-- When a chat is sent. This is the most regular "event" and gives us an idea of the daily-activity of this project across all installations. Again, only the **event** is sent - we have no information on the nature or content of the chat itself.
+- 聊天被发送时。这是最常规的“事件”，让我们了解本项目在所有安装中的日常活跃度。同样，只发送该**事件**本身——我们不掌握聊天的性质或内容。
 
-You can verify these claims by finding all locations `Telemetry.sendTelemetry` is called. Additionally these events are written to the output log so you can also see the specific data which was sent - if enabled. **No IP or other identifying information is collected**. The Telemetry provider is [PostHog](https://posthog.com/) - an open-source telemetry collection service.
+您可以通过查找所有调用 `Telemetry.sendTelemetry` 的位置来验证这些声明。此外，如果启用，这些事件会写入输出日志，因此您也可以看到具体发送了哪些数据。**不会收集 IP 或其他身份识别信息**。遥测服务提供方为 [PostHog](https://posthog.com/) —— 一个开源的遥测数据收集服务。
 
-We take privacy very seriously, and we hope you understand that we want to learn how our tool is used, without using annoying popup surveys, so we can build something worth using. The anonymous data is _never_ shared with third parties, ever.
+我们非常重视隐私，希望您理解：我们想了解工具的使用方式，同时又不想用烦人的弹窗问卷打扰您，这样才能打造真正值得使用的产品。这些匿名数据_绝不会_与任何第三方共享。
 
-[View all telemetry events in source code](https://github.com/search?q=repo%3AMintplex-Labs%2Fanything-llm%20.sendTelemetry(&type=code)
+[在源代码中查看所有遥测事件](https://github.com/search?q=repo%3AMintplex-Labs%2Fanything-llm%20.sendTelemetry(&type=code)
 
-### Other outbound connections
+### 其他出站连接
 
-If you disable telemetry, you would still see outbound connections to the following services:
+即使您关闭了遥测，仍会看到指向以下服务的出站连接：
 
-- If using an external tool, LLM, Embedding models, or Vector databases, you will still see outbound connections to the respective service provider.
-- `cdn.anythingllm.com` for pulling models from our mirror CDN. This is not tracked by telemetry and is actually useful for those in VPN restricted regions.
-- `github/githubusercontent.com` There are some various flat files that are downloaded from these domains for context window caching.
+- 如果使用外部工具、LLM、嵌入模型或向量数据库，您仍会看到指向相应服务提供商的出站连接。
+- `cdn.anythingllm.com` 用于从我们的镜像 CDN 拉取模型。这不会被遥测跟踪，并且对处于 VPN 受限地区的用户很有帮助。
+- `github/githubusercontent.com` 会从这些域名下载一些扁平文件，用于上下文窗口缓存。
 
-Basically, if telemetry is disabled we don't collect anything. However, depending on your setup you may still see outbound connections and would be subject to the terms of service of the respective service provider.
+基本上，如果关闭遥测，我们不会收集任何信息。但根据您的配置，您仍可能看到出站连接，并需遵守相应服务提供商的服务条款。
 
 </details>
 
-## 👋 Contributing
+## 👋 参与贡献
 
-- [Contributing to AnythingLLM](./CONTRIBUTING.md) - How to contribute to AnythingLLM.
+- [为 AnythingLLM 做贡献](CONTRIBUTING.md) - 如何为 AnythingLLM 做贡献。
 
-## 💖 Sponsors
-
-<!--
-### Premium Sponsors
-premium-sponsors (reserved for $100/mth sponsors who request to be called out here and/or are non-private sponsors) -->
-<!-- premium-sponsors -->
-
-### All Sponsors
-
-<!-- all-sponsors --><a href="https://github.com/jaschadub"><img src="https:&#x2F;&#x2F;github.com&#x2F;jaschadub.png" width="60px" alt="User avatar: Jascha" /></a><a href="https://github.com/KickingAss2024"><img src="https:&#x2F;&#x2F;github.com&#x2F;KickingAss2024.png" width="60px" alt="User avatar: KickAss" /></a><a href="https://github.com/ShadowArcanist"><img src="https:&#x2F;&#x2F;github.com&#x2F;ShadowArcanist.png" width="60px" alt="User avatar: ShadowArcanist" /></a><a href="https://github.com/AtlasVIA"><img src="https:&#x2F;&#x2F;github.com&#x2F;AtlasVIA.png" width="60px" alt="User avatar: Atlas" /></a><a href="https://github.com/cope"><img src="https:&#x2F;&#x2F;github.com&#x2F;cope.png" width="60px" alt="User avatar: Predrag Stojadinović" /></a><a href="https://github.com/DiegoSpinola"><img src="https:&#x2F;&#x2F;github.com&#x2F;DiegoSpinola.png" width="60px" alt="User avatar: Diego Spinola" /></a><a href="https://github.com/PortlandKyGuy"><img src="https:&#x2F;&#x2F;github.com&#x2F;PortlandKyGuy.png" width="60px" alt="User avatar: Kyle" /></a><a href="https://github.com/peperunas"><img src="https:&#x2F;&#x2F;github.com&#x2F;peperunas.png" width="60px" alt="User avatar: Giulio De Pasquale" /></a><a href="https://github.com/jasoncdavis0"><img src="https:&#x2F;&#x2F;github.com&#x2F;jasoncdavis0.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/macstadium"><img src="https:&#x2F;&#x2F;github.com&#x2F;macstadium.png" width="60px" alt="User avatar: MacStadium" /></a><a href="https://github.com/armlynobinguar"><img src="https:&#x2F;&#x2F;github.com&#x2F;armlynobinguar.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/MikeHago"><img src="https:&#x2F;&#x2F;github.com&#x2F;MikeHago.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/maaisde"><img src="https:&#x2F;&#x2F;github.com&#x2F;maaisde.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/mhollier117"><img src="https:&#x2F;&#x2F;github.com&#x2F;mhollier117.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/pleabargain"><img src="https:&#x2F;&#x2F;github.com&#x2F;pleabargain.png" width="60px" alt="User avatar: Dennis" /></a><a href="https://github.com/broichan"><img src="https:&#x2F;&#x2F;github.com&#x2F;broichan.png" width="60px" alt="User avatar: Michael Hamilton, Ph.D." /></a><a href="https://github.com/azim-charaniya"><img src="https:&#x2F;&#x2F;github.com&#x2F;azim-charaniya.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/gabriellemon"><img src="https:&#x2F;&#x2F;github.com&#x2F;gabriellemon.png" width="60px" alt="User avatar: TernaryLabs" /></a><a href="https://github.com/CelaDaniel"><img src="https:&#x2F;&#x2F;github.com&#x2F;CelaDaniel.png" width="60px" alt="User avatar: Daniel Cela" /></a><a href="https://github.com/altrsadmin"><img src="https:&#x2F;&#x2F;github.com&#x2F;altrsadmin.png" width="60px" alt="User avatar: Alesso" /></a><a href="https://github.com/bitjungle"><img src="https:&#x2F;&#x2F;github.com&#x2F;bitjungle.png" width="60px" alt="User avatar: Rune Mathisen" /></a><a href="https://github.com/pcrossleyAC"><img src="https:&#x2F;&#x2F;github.com&#x2F;pcrossleyAC.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/saroj-pattnaik"><img src="https:&#x2F;&#x2F;github.com&#x2F;saroj-pattnaik.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/techmedic5"><img src="https:&#x2F;&#x2F;github.com&#x2F;techmedic5.png" width="60px" alt="User avatar: Alan" /></a><a href="https://github.com/ddocta"><img src="https:&#x2F;&#x2F;github.com&#x2F;ddocta.png" width="60px" alt="User avatar: Damien Peters" /></a><a href="https://github.com/dcsdigital"><img src="https:&#x2F;&#x2F;github.com&#x2F;dcsdigital.png" width="60px" alt="User avatar: DCS Digital" /></a><a href="https://github.com/pm7y"><img src="https:&#x2F;&#x2F;github.com&#x2F;pm7y.png" width="60px" alt="User avatar: Paul Mcilreavy" /></a><a href="https://github.com/tilwolf"><img src="https:&#x2F;&#x2F;github.com&#x2F;tilwolf.png" width="60px" alt="User avatar: Til Wolf" /></a><a href="https://github.com/ozzyoss77"><img src="https:&#x2F;&#x2F;github.com&#x2F;ozzyoss77.png" width="60px" alt="User avatar: Leopoldo Crhistian Riverin Gomez" /></a><a href="https://github.com/AlphaEcho11"><img src="https:&#x2F;&#x2F;github.com&#x2F;AlphaEcho11.png" width="60px" alt="User avatar: AJEsau" /></a><a href="https://github.com/svanomm"><img src="https:&#x2F;&#x2F;github.com&#x2F;svanomm.png" width="60px" alt="User avatar: Steven VanOmmeren" /></a><a href="https://github.com/socketbox"><img src="https:&#x2F;&#x2F;github.com&#x2F;socketbox.png" width="60px" alt="User avatar: Casey Boettcher" /></a><a href="https://github.com/zebbern"><img src="https:&#x2F;&#x2F;github.com&#x2F;zebbern.png" width="60px" alt="User avatar: zebbern" /></a><a href="https://github.com/avineetbespin"><img src="https:&#x2F;&#x2F;github.com&#x2F;avineetbespin.png" width="60px" alt="User avatar: Avineet" /></a><a href="https://github.com/invictus-1"><img src="https:&#x2F;&#x2F;github.com&#x2F;invictus-1.png" width="60px" alt="User avatar: Chris" /></a><a href="https://github.com/mirbyte"><img src="https:&#x2F;&#x2F;github.com&#x2F;mirbyte.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/bisonbet"><img src="https:&#x2F;&#x2F;github.com&#x2F;bisonbet.png" width="60px" alt="User avatar: Tim Champ" /></a><a href="https://github.com/Sinkingdev"><img src="https:&#x2F;&#x2F;github.com&#x2F;Sinkingdev.png" width="60px" alt="User avatar: Peter Mathisen" /></a><a href="https://github.com/Ed-STEM"><img src="https:&#x2F;&#x2F;github.com&#x2F;Ed-STEM.png" width="60px" alt="User avatar: Ed di Girolamo" /></a><a href="https://github.com/milkowski"><img src="https:&#x2F;&#x2F;github.com&#x2F;milkowski.png" width="60px" alt="User avatar: Wojciech Miłkowski" /></a><a href="https://github.com/ADS-Fund"><img src="https:&#x2F;&#x2F;github.com&#x2F;ADS-Fund.png" width="60px" alt="User avatar: ADS Fund" /></a><a href="https://github.com/arc46-io"><img src="https:&#x2F;&#x2F;github.com&#x2F;arc46-io.png" width="60px" alt="User avatar: arc46 GmbH" /></a><a href="https://github.com/liyin2015"><img src="https:&#x2F;&#x2F;github.com&#x2F;liyin2015.png" width="60px" alt="User avatar: Li Yin" /></a><a href="https://github.com/SylphAI-Inc"><img src="https:&#x2F;&#x2F;github.com&#x2F;SylphAI-Inc.png" width="60px" alt="User avatar: AdaL" /></a><a href="https://github.com/breesait"><img src="https:&#x2F;&#x2F;github.com&#x2F;breesait.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/mgMsquared"><img src="https:&#x2F;&#x2F;github.com&#x2F;mgMsquared.png" width="60px" alt="User avatar: Mik" /></a><a href="https://github.com/sswkor"><img src="https:&#x2F;&#x2F;github.com&#x2F;sswkor.png" width="60px" alt="User avatar: " /></a><!-- all-sponsors -->
-
-## 🌟 Contributors
+## 🌟 贡献者们
 
 [![anythingllm contributors](https://contrib.rocks/image?repo=mintplex-labs/anything-llm)](https://github.com/mintplex-labs/anything-llm/graphs/contributors)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=mintplex-labs/anything-llm&type=Timeline)](https://star-history.com/#mintplex-labs/anything-llm&Date)
 
-## 🔗 More Products
+## 🔗 更多产品
 
-- **[AnythingLLM Mobile (Open-Source Licensed)][anythingllm-mobile]:** The same AnythingLLM on-device expierence, but on your phone.
-- **[AnythingLLM Browser Extension][anythingllm-extension]:** A browser extension that allows you to use AnythingLLM in your browser.
-- **[AnythingLLM Embed][anythingllm-embed]:** A widget that allows you to embed AnythingLLM in your website.
-- **[Open Computer][open-computer]:** A full computer environment for AI agents to use.
+- **[AnythingLLM Mobile（开源许可）][anythingllm-mobile]：** 同样的 AnythingLLM 本地设备体验，现在就在您的手机上。
+- **[AnythingLLM 浏览器扩展][anythingllm-extension]：** 让您在浏览器中使用 AnythingLLM 的浏览器扩展。
+- **[AnythingLLM Embed][anythingllm-embed]：** 让您将 AnythingLLM 嵌入自己网站的组件。
 
 <div align="right">
 
@@ -289,8 +264,8 @@ premium-sponsors (reserved for $100/mth sponsors who request to be called out he
 
 ---
 
-Copyright © 2026 [Mintplex Labs][profile-link]. <br />
-This project is [MIT](./LICENSE) licensed.
+版权所有 © 2026 [Mintplex Labs][profile-link]。<br />
+本项目采用 [MIT](LICENSE) 许可证。
 
 <!-- LINK GROUP -->
 
@@ -299,15 +274,14 @@ This project is [MIT](./LICENSE) licensed.
 [anythingllm-mobile]: https://github.com/Mintplex-Labs/anythingllm-mobile
 [anythingllm-extension]: https://github.com/Mintplex-Labs/anythingllm-extension
 [anythingllm-embed]: https://github.com/Mintplex-Labs/anythingllm-embed
-[open-computer]: https://github.com/Mintplex-Labs/open-computer
-[docker-btn]: ./images/deployBtns/docker.png
-[docker-deploy]: ./docker/HOW_TO_USE_DOCKER.md
-[aws-btn]: ./images/deployBtns/aws.png
-[aws-deploy]: ./cloud-deployments/aws/cloudformation/DEPLOY.md
+[docker-btn]: ../images/deployBtns/docker.png
+[docker-deploy]: ../docker/HOW_TO_USE_DOCKER.md
+[aws-btn]: ../images/deployBtns/aws.png
+[aws-deploy]: ../cloud-deployments/aws/cloudformation/DEPLOY.md
 [gcp-btn]: https://deploy.cloud.run/button.svg
-[gcp-deploy]: ./cloud-deployments/gcp/deployment/DEPLOY.md
+[gcp-deploy]: ../cloud-deployments/gcp/deployment/DEPLOY.md
 [do-btn]: https://www.deploytodo.com/do-btn-blue.svg
-[do-deploy]: ./cloud-deployments/digitalocean/terraform/DEPLOY.md
+[do-deploy]: ../cloud-deployments/digitalocean/terraform/DEPLOY.md
 [render-btn]: https://render.com/images/deploy-to-render-button.svg
 [render-deploy]: https://render.com/deploy?repo=https://github.com/Mintplex-Labs/anything-llm&branch=render
 [render-btn]: https://render.com/images/deploy-to-render-button.svg
@@ -322,5 +296,3 @@ This project is [MIT](./LICENSE) licensed.
 [northflank-deploy]: https://northflank.com/stacks/deploy-anythingllm
 [sealos-btn]: https://sealos.io/Deploy-on-Sealos.svg
 [sealos-deploy]: https://sealos.io/products/app-store/anything-llm
-[easypanel-btn]: https://easypanel.io/img/deploy-on-easypanel-40.svg
-[easypanel-deploy]: https://easypanel.io/templates/anythingllm
