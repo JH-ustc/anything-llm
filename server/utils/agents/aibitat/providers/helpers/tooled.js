@@ -4,6 +4,7 @@ const { attachmentToContentBlock } = require("../../../../helpers/attachments");
 const {
   extractReasoningContent,
 } = require("../../../../helpers/chat/responses");
+const { DsmlStreamFilter, extractDsmlToolCalls } = require("./dsml");
 
 /**
  * Shared native OpenAI-compatible tool calling utilities.
@@ -267,6 +268,7 @@ async function tooledStream(
   let usage = null;
   let time_info = null;
   let reasoningText = "";
+  const dsmlFilter = new DsmlStreamFilter();
 
   for await (const chunk of stream) {
     // Capture usage from final chunk (some providers send usage after finish_reason)
@@ -303,11 +305,14 @@ async function tooledStream(
         });
       }
       result.textResponse += choice.delta.content;
-      eventHandler?.("reportStreamEvent", {
-        type: "textResponseChunk",
-        uuid: msgUUID,
-        content: choice.delta.content,
-      });
+      const visibleContent = dsmlFilter.push(choice.delta.content);
+      if (visibleContent.length > 0) {
+        eventHandler?.("reportStreamEvent", {
+          type: "textResponseChunk",
+          uuid: msgUUID,
+          content: visibleContent,
+        });
+      }
     }
 
     if (choice.delta?.tool_calls) {
@@ -352,6 +357,15 @@ async function tooledStream(
     }
   }
 
+  const trailingContent = dsmlFilter.flush();
+  if (trailingContent.length > 0) {
+    eventHandler?.("reportStreamEvent", {
+      type: "textResponseChunk",
+      uuid: msgUUID,
+      content: trailingContent,
+    });
+  }
+
   // Auto-record usage if provider is passed and usage is available
   if (provider?.recordUsage && usage) {
     try {
@@ -380,7 +394,20 @@ async function tooledStream(
     };
   }
 
-  let textResponse = result.textResponse;
+  // DeepSeek V4 can emit native DSML tool calls as plain content when the
+  // wrapper is malformed. Recover the first call so the agent can execute it,
+  // and strip the markup from the text returned to the chat.
+  const dsml = extractDsmlToolCalls(result.textResponse);
+  if (!result.functionCall && dsml.toolCalls.length > 0) {
+    const firstCall = dsml.toolCalls[0];
+    result.functionCall = {
+      id: `call_${v4()}`,
+      name: firstCall.name,
+      arguments: firstCall.arguments,
+    };
+  }
+
+  let textResponse = dsml.text;
   if (reasoningText.trim().length > 0 && !result.functionCall) {
     textResponse = `<think>${reasoningText}</think>${textResponse}`;
   }
@@ -491,8 +518,28 @@ async function tooledComplete(
     };
   }
 
-  const reasoning = extractReasoningContent(completion);
+  // Recover DSML tool calls that the provider returned as plain content and
+  // strip the markup from whatever remains visible.
   let textResponse = completion.content;
+  if (typeof textResponse === "string") {
+    const dsml = extractDsmlToolCalls(textResponse);
+    if (dsml.toolCalls.length > 0) {
+      const firstCall = dsml.toolCalls[0];
+      return {
+        textResponse: null,
+        functionCall: {
+          id: `call_${v4()}`,
+          name: firstCall.name,
+          arguments: firstCall.arguments,
+        },
+        cost,
+        usage,
+      };
+    }
+    textResponse = dsml.text;
+  }
+
+  const reasoning = extractReasoningContent(completion);
   if (reasoning && reasoning.trim().length > 0) {
     textResponse = `<think>${reasoning}</think>${textResponse}`;
   }
