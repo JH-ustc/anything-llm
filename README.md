@@ -220,69 +220,6 @@ Mintplex Labs 与社区维护了多种部署方式、脚本和模板，您可以
 
 [了解文档](server/storage/documents/DOCUMENTS.md)
 
-## 远程信息收集与隐私保护
-
-由 Mintplex Labs Inc 开发的 AnythingLLM 包含一项收集匿名使用信息的遥测功能。
-
-<details>
-<summary><kbd>有关 AnythingLLM 遥测与隐私保护的更多信息</kbd></summary>
-
-### 为什么收集信息？
-
-我们使用这些信息来帮助我们理解 AnythingLLM 的使用情况，帮助我们确定新功能和错误修复的优先级，并帮助我们提升 AnythingLLM 的性能与稳定性。
-
-### 怎样关闭
-
-在服务器或 Docker 的 .env 设置中将 `DISABLE_TELEMETRY` 设为 "true" 即可退出遥测。您也可以在应用内操作：侧边栏 > `隐私` > 关闭遥测。
-
-### 你们明确跟踪哪些信息？
-
-我们只会跟踪有助于我们做出产品和路线图决策的使用细节，具体包括：
-
-- 您的安装类型（Docker 或桌面版）
-
-- 文档被添加或移除时。不包含任何_关于_文档本身的信息，仅记录该事件发生过。这让我们了解使用情况。
-
-- 使用中的向量数据库类型。这有助于我们在该提供商发布更新时确定改动的优先级。
-
-- 使用中的 LLM 提供商与模型标签。这有助于我们在该提供商或模型（或两者组合）发布更新时确定改动的优先级，例如：推理模型与常规模型、多模态模型等。
-
-- 聊天被发送时。这是最常规的“事件”，让我们了解本项目在所有安装中的日常活跃度。同样，只发送该**事件**本身——我们不掌握聊天的性质或内容。
-
-您可以通过查找所有调用 `Telemetry.sendTelemetry` 的位置来验证这些声明。此外，如果启用，这些事件会写入输出日志，因此您也可以看到具体发送了哪些数据。**不会收集 IP 或其他身份识别信息**。遥测服务提供方为 [PostHog](https://posthog.com/) —— 一个开源的遥测数据收集服务。
-
-我们非常重视隐私，希望您理解：我们想了解工具的使用方式，同时又不想用烦人的弹窗问卷打扰您，这样才能打造真正值得使用的产品。这些匿名数据_绝不会_与任何第三方共享。
-
-[在源代码中查看所有遥测事件](https://github.com/search?q=repo%3AMintplex-Labs%2Fanything-llm%20.sendTelemetry(&type=code)
-
-### 其他出站连接
-
-即使您关闭了遥测，仍会看到指向以下服务的出站连接：
-
-- 如果使用外部工具、LLM、嵌入模型或向量数据库，您仍会看到指向相应服务提供商的出站连接。
-- `cdn.anythingllm.com` 用于从我们的镜像 CDN 拉取模型。这不会被遥测跟踪，并且对处于 VPN 受限地区的用户很有帮助。
-- `github/githubusercontent.com` 会从这些域名下载一些扁平文件，用于上下文窗口缓存。
-
-基本上，如果关闭遥测，我们不会收集任何信息。但根据您的配置，您仍可能看到出站连接，并需遵守相应服务提供商的服务条款。
-
-</details>
-
-## 👋 参与贡献
-
-- [为 AnythingLLM 做贡献](CONTRIBUTING.md) - 如何为 AnythingLLM 做贡献。
-
-## 🌟 贡献者们
-
-[![anythingllm contributors](https://contrib.rocks/image?repo=mintplex-labs/anything-llm)](https://github.com/mintplex-labs/anything-llm/graphs/contributors)
-
-[![Star History Chart](https://api.star-history.com/svg?repos=mintplex-labs/anything-llm&type=Timeline)](https://star-history.com/#mintplex-labs/anything-llm&Date)
-
-## 🔗 更多产品
-
-- **[AnythingLLM Mobile（开源许可）][anythingllm-mobile]：** 同样的 AnythingLLM 本地设备体验，现在就在您的手机上。
-- **[AnythingLLM 浏览器扩展][anythingllm-extension]：** 让您在浏览器中使用 AnythingLLM 的浏览器扩展。
-- **[AnythingLLM Embed][anythingllm-embed]：** 让您将 AnythingLLM 嵌入自己网站的组件。
-
 <div align="right">
 
 [![][back-to-top]](#readme-top)
@@ -298,9 +235,6 @@ Mintplex Labs 与社区维护了多种部署方式、脚本和模板，您可以
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-222628?style=flat-square
 [profile-link]: https://github.com/mintplex-labs
-[anythingllm-mobile]: https://github.com/Mintplex-Labs/anythingllm-mobile
-[anythingllm-extension]: https://github.com/Mintplex-Labs/anythingllm-extension
-[anythingllm-embed]: https://github.com/Mintplex-Labs/anythingllm-embed
 [docker-btn]: ../images/deployBtns/docker.png
 [docker-deploy]: ../docker/HOW_TO_USE_DOCKER.md
 [aws-btn]: ../images/deployBtns/aws.png
