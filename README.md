@@ -43,6 +43,33 @@
 
 </details>
 
+## 本 Fork 的本地适配
+
+这是 [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) 的个人 fork，基线为 **v1.19.0**，用于本地优先的个人学习与研究工作台。保留 fork 的目的不是另起产品，而是把本地部署所需的小补丁、中文文档和升级节奏固定下来，避免每次重装或升级重复踩坑。
+
+### 维护的补丁
+
+| 提交 | 文件 | 作用 |
+| --- | --- | --- |
+| `9848d5e` | `server/utils/agents/aibitat/providers/helpers/dsml.js`、`tooled.js` | 恢复 DeepSeek V4 在并行或畸形包装下泄漏到正文的 DSML 工具调用，并在流式输出中过滤标记；附带单元测试 |
+| `5a848b8` | `README.md`、`locales/` | 仅保留简体中文 README，其他语言版本归档 |
+
+### 本地部署形态
+
+- Windows + WSL Ubuntu + Docker Desktop；镜像固定为 `mintplexlabs/anythingllm:1.19.0`，不跟随上游滚动更新。
+- 服务仅监听 `127.0.0.1:3001`，不对外网暴露；关闭遥测。
+- 检索使用本地 `MintplexLabs/multilingual-e5-small` 嵌入 + LanceDB；对话模型通过 DeepSeek 官方 API。
+- 补丁文件以只读 bind mount 覆盖进容器，应用数据与向量库持久化在宿主机。
+- Docker Desktop 未设置开机自启；冷启动时容器可能抢在 WSL 文件集成就绪前启动，需要等引擎完全启动后手动执行 `docker start anythingllm`。
+
+### 同步约定
+
+- WSL 本地 clone 是开发工作副本；每次改动都提交并 push 到本 fork 的 `master`，保持两边一致。
+- 上游更新按需合并，不盲目跟进；合并前先确认本地补丁与部署挂载仍然兼容。
+- 提交信息使用英文 conventional commit。
+
+> 以下为上游 README 原文，保留用于功能对照与升级参考。
+
 ### 产品概览
 
 AnythingLLM 是一款全方位 AI 应用程序，让您毫无妥协地构建私有的、功能完备的 ChatGPT。接入您喜爱的本地或云端 LLM，导入您的文档，几分钟内即可开始聊天。开箱即用即可获得内置智能体、多用户支持、向量数据库和文档处理管道——无需额外配置。
