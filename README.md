@@ -52,6 +52,7 @@
 | 提交 | 文件 | 作用 |
 | --- | --- | --- |
 | `9848d5e` | `server/utils/agents/aibitat/providers/helpers/dsml.js`、`tooled.js` | 恢复 DeepSeek V4 在并行或畸形包装下泄漏到正文的 DSML 工具调用，并在流式输出中过滤标记；附带单元测试 |
+| `e0edd65` | `frontend/src/hooks/useAutoScroll.js`、`frontend/src/components/WorkspaceChat/ChatContainer/ChatHistory/index.jsx` | 用户向上阅读时不再被自动拉回提问位置：只在发送新消息时重新跟随，任何向上滚动解除跟随，并关闭浏览器滚动锚定 |
 | `5a848b8` | `README.md`、`locales/` | 仅保留简体中文 README，其他语言版本归档 |
 
 ### 本地部署形态
@@ -59,7 +60,7 @@
 - Windows + WSL Ubuntu + Docker Desktop；镜像固定为 `mintplexlabs/anythingllm:1.19.0`，不跟随上游滚动更新。
 - 服务仅监听 `127.0.0.1:3001`，不对外网暴露；关闭遥测。
 - 检索使用本地 `MintplexLabs/multilingual-e5-small` 嵌入 + LanceDB；对话模型通过 DeepSeek 官方 API。
-- 补丁文件以只读 bind mount 覆盖进容器，应用数据与向量库持久化在宿主机。
+- 后端补丁文件与前端构建产物（`frontend/dist` → `/app/server/public`）都以只读 bind mount 覆盖进容器，应用数据与向量库持久化在宿主机。
 - Docker Desktop 未设置开机自启；冷启动时容器可能抢在 WSL 文件集成就绪前启动，需要等引擎完全启动后手动执行 `docker start anythingllm`。
 
 ### 同步约定
