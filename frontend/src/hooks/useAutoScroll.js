@@ -62,20 +62,39 @@ export default function useAutoScroll(history, imperativeRef) {
   // with it enabled, re-engage follow on send and pin before paint so the
   // new message never appears above the fold.
   const loadedRef = useRef(false);
+  const prevHistoryRef = useRef({ length: 0, userCount: 0 });
   useLayoutEffect(() => {
     if (history.length === 0) {
       loadedRef.current = false;
+      prevHistoryRef.current = { length: 0, userCount: 0 };
       return;
     }
     if (!loadedRef.current) {
       loadedRef.current = true;
+      prevHistoryRef.current = {
+        length: history.length,
+        userCount: history.filter((m) => m?.role === "user").length,
+      };
       scrollToBottom(false);
       pinToBottom();
       return;
     }
-    if (disabled) return;
+
+    const prev = prevHistoryRef.current;
+    const userCount = history.filter((m) => m?.role === "user").length;
+    const grew = history.length > prev.length;
     const lastMsg = history[history.length - 1];
-    if (lastMsg?.pending) followRef.current = true;
+    // A new user prompt is the only thing that should re-engage follow.
+    // Assistant streaming/status updates must not yank the view back after
+    // the user has scrolled up to read.
+    const startedNewTurn =
+      grew &&
+      (lastMsg?.role === "user" ||
+        (lastMsg?.pending && history[history.length - 2]?.role === "user"));
+    prevHistoryRef.current = { length: history.length, userCount };
+
+    if (disabled) return;
+    if (userCount > prev.userCount || startedNewTurn) followRef.current = true;
     if (followRef.current) scrollToBottom(false);
   }, [history, scrollToBottom, pinToBottom, disabled]);
 
@@ -104,14 +123,14 @@ export default function useAutoScroll(history, imperativeRef) {
     if (!chatHistoryRef.current) return;
     const { scrollTop, scrollHeight, clientHeight } = chatHistoryRef.current;
     const atBottom = scrollHeight - scrollTop - clientHeight < 40;
+    const scrolledUp = scrollTop < lastScrollTopRef.current;
     const scrolledDown = scrollTop > lastScrollTopRef.current;
     lastScrollTopRef.current = scrollTop;
     setIsAtBottom(atBottom);
-    // Only re-engage follow when scrolling DOWN into the bottom zone. Merely
-    // being near the bottom must not re-engage, or an upward scroll that
-    // starts inside the zone gets snapped back down (sticky bottom). This
-    // also re-engages at the end of any smooth scrollToBottom() animation.
-    if (atBottom && scrolledDown) followRef.current = true;
+    // Any upward movement (wheel, touch, scrollbar drag, keyboard) opts out
+    // of following. Only a downward scroll into the bottom zone re-engages.
+    if (scrolledUp) followRef.current = false;
+    else if (atBottom && scrolledDown) followRef.current = true;
   }, []);
 
   const handleWheel = useCallback((e) => {
